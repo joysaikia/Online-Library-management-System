@@ -1,0 +1,42 @@
+/* INDEX PAGE */
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    background-image: url(../img/umm.jpg);
+    margin-top: 300px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: #000000;
+  }
+h1{
+  margin-bottom: 70px;
+}
+a{ 
+    margin-bottom: 10 px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    color: #ffffff;
+    background: #4682b9;
+    margin-top: px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(82, 82, 82, 0.2);
+    padding: 15px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+ a:hover{
+    background: #57a9f5;
+  }
